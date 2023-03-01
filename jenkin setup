@@ -1,0 +1,21 @@
+sudo yum update -y
+    2  java --version
+    3  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    4    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    5  amazon-linux-extras install java-openjdk11 -y
+    6  java --version
+    7  yum install git maven jenkins -y
+    8  systemctl start jenkins.service
+    9  systemctl status jenkins.service
+   10  cd /var/lib/jenkins/secrets/initialAdminPassword
+   11  cat /var/lib/jenkins/secrets/initialAdminPassword
+   12  cd /var/lib/jenkins/workspace/jhansi
+   13  ll
+   14  cd /
+   15  ll
+   16  mkdir tcs
+   17  ll
+   18  chown -R jenkins:jenkins /tcs/
+   19  ll
+   20  cd /tcs
+   21  ll
