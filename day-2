@@ -1,0 +1,12 @@
+parameters:
+    choice par
+    string par
+    multi string
+    file para
+    boolean para
+   
+variables:
+     userdefiend vars
+     a.local var
+     b.global vars
+     jenkin variables.
