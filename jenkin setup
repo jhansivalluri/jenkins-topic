@@ -19,3 +19,4 @@ sudo yum update -y
    19  ll
    20  cd /tcs
    21  ll
+cat etc/passwd
